@@ -5,7 +5,7 @@
 // top-level graphql package, but graphql/language/source uses instanceOf, and
 // has relatively few dependencies, so importing it here should not increase
 // bundle sizes as much as other options.
-import invariant from 'ts-invariant';
+import invariant from 'ts-invariant/process';
 import { Source } from 'graphql';
 
 export function removeTemporaryGlobals() {
