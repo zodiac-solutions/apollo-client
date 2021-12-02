@@ -51,7 +51,7 @@
     "bundlesize": "npm run build && bundlesize",
     "predeploy": "npm run build",
     "deploy": "cd dist && npm publish",
-    "postinstall": "cd ./node_modules/@apollo/client && npm install && npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "bundlesize": [
     {
